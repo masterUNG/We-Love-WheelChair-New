@@ -15,6 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".DetailWheelChairActivity" />
+        <activity android:name=".ShopWheelChairActivity" />
+        <activity android:name=".TravelWheelChairActivity" />
+        <activity android:name=".TripWheelChairActivity"></activity>
     </application>
 
 </manifest>

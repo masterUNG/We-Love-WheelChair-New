@@ -34,14 +34,16 @@
                 android:id="@+id/imageView2"
                 android:layout_weight="1"
                 android:src="@drawable/howto"
-                android:padding="10dp" />
+                android:padding="10dp"
+                android:onClick="clickHub1" />
 
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/imageView3"
                 android:layout_weight="1"
-                android:src="@drawable/buy" />
+                android:src="@drawable/buy"
+                android:onClick="clickHub2" />
         </LinearLayout>
 
         <LinearLayout
@@ -81,14 +83,16 @@
                 android:layout_height="match_parent"
                 android:id="@+id/imageView4"
                 android:layout_weight="1"
-                android:src="@drawable/car" />
+                android:src="@drawable/car"
+                android:onClick="clickHub3" />
 
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/imageView5"
                 android:layout_weight="1"
-                android:src="@drawable/gogo" />
+                android:src="@drawable/gogo"
+                android:onClick="clickHub4" />
         </LinearLayout>
 
         <LinearLayout
