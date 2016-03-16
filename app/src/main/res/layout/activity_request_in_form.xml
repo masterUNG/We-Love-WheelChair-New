@@ -17,7 +17,8 @@
         android:layout_height="wrap_content"
         android:text="@string/passdata"
         android:id="@+id/button"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true"
+        android:onClick="clickDataRequest" />
 
     <ScrollView
         android:layout_width="match_parent"
