@@ -15,6 +15,33 @@
     <string name="hub11">การเบิก</string>
     <string name="hub12">วิธีใช้งาน</string>
 
+    <string name="data1">กรอกข้อมูลเบื้องต้น</string>
+    <string name="data2">อาการเบื้องต้น</string>
+    <string name="data3">พอเดินได้</string>
+    <string name="data4">พอเดินเล็กน้อย</string>
+    <string name="data5">ไม่สามารถเดินได้</string>
+
+    <string name="dataweight">น้ำหนักตัว</string>
+    <string name="dataweight1">ช่วง40-60กิโลกรัม</string>
+    <string name="dataweight2">ช่วง61-89กิโลกรัม</string>
+    <string name="dataweight3">ช่วง90-150กิโลกรัม</string>
+
+    <string name="datatraval">การเดินทาง</string>
+    <string name="datatraval1">เดินทางบ่อยครั้ง</string>
+    <string name="datatraval2">เดินทางไม่บ่อยครั้ง</string>
+
+    <string name="datacar">ยานพหนะ</string>
+    <string name="datacar1">มียานพหนะ</string>
+    <string name="datacar2">ไม่มียานพหนะ</string>
+
+    <string name="dataaround">งบประมาณ</string>
+    <string name="dataaround1">ต่ำกว่า5,000บาท</string>
+    <string name="dataaround2">ต่ำกว่า10,000บาท</string>
+    <string name="dataaround3">ต่ำกว่า15,000บาท</string>
+    <string name="dataaround4">ไม่จำกัด</string>
+
+    <string name="passdata">ส่งข้อมูล</string>
+
 
     <string name="inf">วิธีการเรียกใช้บริการรถแท็กซี่ สามารถทำได้ตามขั้นตอน ดังต่อไปนี้</string>
 
