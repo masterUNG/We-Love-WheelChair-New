@@ -1,5 +1,6 @@
 package appewtc.masterung.welovewheelchair;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,6 +17,7 @@ public class RequestInForm extends AppCompatActivity {
             choice4RadioButton, choice5RadioButton, choice6RadioButton, choice7RadioButton,
             choice8RadioButton, choice9RadioButton, choice10RadioButton, choice11RadioButton,
             choice12RadioButton, choice13RadioButton, choice14RadioButton;
+    private String[] chooseStrings = new String[5];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +37,9 @@ public class RequestInForm extends AppCompatActivity {
         //Check Choose
         if (checkChoose()) {
             //Choosed
-
+            Intent intent = new Intent(RequestInForm.this, CommentWheelChair.class);
+            intent.putExtra("Choose", chooseStrings);
+            startActivity(intent);
 
         } else {
             //Some One not Choose
@@ -78,10 +82,13 @@ public class RequestInForm extends AppCompatActivity {
                 switch (i) {
 
                     case R.id.radioButton:
+                        chooseStrings[0] = "1";
                         break;
                     case R.id.radioButton2:
+                        chooseStrings[0] = "2";
                         break;
                     case R.id.radioButton3:
+                        chooseStrings[0] = "3";
                         break;
                 }
 
@@ -96,10 +103,13 @@ public class RequestInForm extends AppCompatActivity {
                 switch (i) {
 
                     case R.id.radioButton4:
+                        chooseStrings[1] = "1";
                         break;
                     case R.id.radioButton5:
+                        chooseStrings[1] = "2";
                         break;
                     case R.id.radioButton6:
+                        chooseStrings[1] = "3";
                         break;
                 }
 
@@ -114,8 +124,10 @@ public class RequestInForm extends AppCompatActivity {
                 switch (i) {
 
                     case R.id.radioButton7:
+                        chooseStrings[2] = "1";
                         break;
                     case R.id.radioButton8:
+                        chooseStrings[2] = "2";
                         break;
 
                 }
@@ -131,8 +143,10 @@ public class RequestInForm extends AppCompatActivity {
                 switch (i) {
 
                     case R.id.radioButton10:
+                        chooseStrings[3] = "1";
                         break;
                     case R.id.radioButton11:
+                        chooseStrings[3] = "2";
                         break;
 
                 }
@@ -149,12 +163,16 @@ public class RequestInForm extends AppCompatActivity {
                 switch (i) {
 
                     case R.id.radioButton13:
+                        chooseStrings[4] = "1";
                         break;
                     case R.id.radioButton14:
+                        chooseStrings[4] = "2";
                         break;
                     case R.id.radioButton15:
+                        chooseStrings[4] = "3";
                         break;
                     case R.id.radioButton9:
+                        chooseStrings[4] = "4";
                         break;
 
                 }
